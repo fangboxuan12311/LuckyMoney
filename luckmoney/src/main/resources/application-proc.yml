@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /luckymoney
+
+limit:
+  minMoney: 1
+  maxMoney: 9999
+  description: You should pay more than ${limit.minMoney} RMB,but no more than ${limit.maxMoney} RMB.
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/luckymoney
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

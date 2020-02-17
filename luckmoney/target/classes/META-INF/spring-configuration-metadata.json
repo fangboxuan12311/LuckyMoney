@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "limit",
+      "type": "com.imooc.luckmoney.LimitConfig",
+      "sourceType": "com.imooc.luckmoney.LimitConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limit.description",
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.luckmoney.LimitConfig"
+    },
+    {
+      "name": "limit.max-money",
+      "type": "java.math.BigDecimal",
+      "sourceType": "com.imooc.luckmoney.LimitConfig"
+    },
+    {
+      "name": "limit.min-money",
+      "type": "java.math.BigDecimal",
+      "sourceType": "com.imooc.luckmoney.LimitConfig"
+    }
+  ],
+  "hints": []
+}
